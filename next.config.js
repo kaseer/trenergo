@@ -38,8 +38,3 @@ module.exports = withLess({
     return config
   },
 })
-
-
-module.exports = {
-  distDir: 'build',
-}
