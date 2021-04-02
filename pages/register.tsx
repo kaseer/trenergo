@@ -1,12 +1,9 @@
 import * as React from 'react';
 import { Registration } from '../blocks/registration';
+import { AuthLayout } from '../layout/authentication';
 
-type Props = {};
- const Register = (props: Props) => {
-    return (
-        <div>
-            <Registration/>
-        </div>
-    );
+const RegisterPage = () => {
+    const _form = <Registration/>;
+    return <AuthLayout form={_form}/>;
 };
-export default Register
+export default RegisterPage;

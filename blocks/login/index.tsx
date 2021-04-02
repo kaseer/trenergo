@@ -1,7 +1,11 @@
 import { Button, Checkbox, Form, Input } from 'antd';
-import { Social } from '../../../components/social-button';
 import * as React from 'react';
 import styled from '@emotion/styled';
+import { Social } from '../../components/social-button';
+import Title from 'antd/lib/typography/Title';
+import Paragraph from 'antd/lib/typography/Paragraph';
+import Line from 'antd/lib/progress/Line';
+import Link from 'next/link';
 
 const layout = {
     labelCol: { span: 24 },
@@ -11,7 +15,7 @@ const tailLayout = {
     wrapperCol: {  span: 24 },
 };
 
-export const SignUp = () => {
+export const Login = () => {
     const onFinish = (values: any) => {
         console.log('Success:', values);
     };
@@ -21,7 +25,11 @@ export const SignUp = () => {
     };
 
     return (
-        <SignUpWrapper>
+        <SignInWrapper>
+            <Title level={2}>Log In</Title>
+            <Paragraph>
+                Don’t have an account? <Link href="/register"><a>Sign Up</a></Link>  here.
+            </Paragraph>
             <Form
                 {...layout}
                 name="basic"
@@ -30,13 +38,6 @@ export const SignUp = () => {
                 onFinishFailed={onFinishFailed}
 
             >
-                <Form.Item
-                    label="name"
-                    name="name"
-                    rules={[{ required: true, message: 'Please input your name!' }]}
-                >
-                    <Input />
-                </Form.Item>
                 <Form.Item
                     label="email"
                     name="email"
@@ -52,34 +53,32 @@ export const SignUp = () => {
                 >
                     <Input.Password />
                 </Form.Item>
-                <Form.Item
-                    label="Confirm Password"
-                    name="Confirm Password"
-                    rules={[{ required: true, message: 'Please input your Confirm Password!' }]}
-                >
-                    <Input.Password />
-                </Form.Item>
 
-                <Form.Item {...tailLayout} name="remember" valuePropName="checked">
-                    <Checkbox>Account terms & conditions</Checkbox>
-                </Form.Item>
 
                 <Form.Item {...tailLayout} style={{textAlign:'center'}}>
                     <Button style={{width:'189px'}} type="primary" htmlType="submit" shape="round">
-                        Submit
+                        Log In
                     </Button>
                 </Form.Item>
+                <Form.Item style={{textAlign:'center'}} name="remember" valuePropName="checked">
+                    <Link href="/"><a>Forgot your password?</a></Link>
+                </Form.Item>
             </Form>
-        <SocialContainer>
-            <Social icon={<img src="/facebook.svg" alt="facebook"/>}/>
-            <Social icon={<img src="/google.svg" alt="google"/>}/>
-            <Social icon={<img src="/apple.svg" alt="apple"/>}/>
-        </SocialContainer>
-        </SignUpWrapper>
+            <div>
+                <Paragraph>
+                    <b>OR</b> log in with:
+                </Paragraph>
+            </div>
+            <SocialContainer>
+                <Social icon={<img src="/facebook.svg" alt="facebook"/>}/>
+                <Social icon={<img src="/google.svg" alt="google"/>}/>
+                <Social icon={<img src="/apple.svg" alt="apple"/>}/>
+            </SocialContainer>
+        </SignInWrapper>
     );
 };
 
-const SignUpWrapper = styled.div`
+const SignInWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
