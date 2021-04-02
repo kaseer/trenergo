@@ -2,6 +2,7 @@
 
 export function preftifyObj(user, role): UserType {
   const _user: UserType = {
+    keywords:null,
     profile: {
       sub: user.claims.sub,
       email: user.claims.email,

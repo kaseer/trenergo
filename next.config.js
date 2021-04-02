@@ -9,7 +9,7 @@ const themeVariables = lessToJS(
   fs.readFileSync(path.resolve(__dirname, './shared/antd-custom.less'), 'utf8')
 )
 
-module.exports = withLess({
+const configurations = withLess({
   lessLoaderOptions: {
     javascriptEnabled: true,
     modifyVars: themeVariables, // make your antd custom effective
@@ -38,3 +38,9 @@ module.exports = withLess({
     return config
   },
 })
+
+
+module.exports = {
+  distDir: 'build',
+  ...configurations
+}
