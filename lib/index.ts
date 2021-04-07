@@ -2,7 +2,7 @@
 
 export function preftifyObj(user, role): UserType {
   const _user: UserType = {
-    keywords:null,
+    keywords: null,
     profile: {
       sub: user.claims.sub,
       email: user.claims.email,
@@ -28,6 +28,10 @@ export function preftifyObj(user, role): UserType {
 
 export const checkCompenent = (type) => {
   if (!type) return
-  const action = type.isTrainer ? 'isTrainer' : type.isTrainee ? 'isTrainee' : null
+  const action = type.isTrainer
+    ? 'isTrainer'
+    : type.isTrainee
+    ? 'isTrainee'
+    : null
   return { isTrainer: {}, isTrainee: {} }[action]
 }
