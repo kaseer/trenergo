@@ -24,7 +24,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            <title>TrenerGo</title>
+          <title>TrenerGo</title>
         </Head>
         <body>
           <Main />

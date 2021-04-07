@@ -29,21 +29,21 @@ export const basicStyles = css`
     padding: 0;
     box-sizing: border-box;
   }
-  .ant-input:not(.ant-input-password  input){
+  .ant-input:not(.ant-input-password input) {
     border-bottom: solid 1px #1c1c1e !important;
   }
-  .ant-input-password{
+  .ant-input-password {
     border-bottom: solid 1px #1c1c1e !important;
   }
-  input.ant-input:focus{
-       --antd-wave-shadow-color:none;
+  input.ant-input:focus {
+    --antd-wave-shadow-color: none;
   }
   .ant-layout-sider {
     background: #efefef !important;
   }
-  .ant-input-suffix{
-    svg{
-        color: #687079;
+  .ant-input-suffix {
+    svg {
+      color: #687079;
     }
   }
 `
