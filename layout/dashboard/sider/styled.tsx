@@ -38,6 +38,5 @@ export const ProfileContainer = styled.div`
 `
 
 export const BottomContainer = styled.div`
- display: flex;
- 
+  display: flex;
 `

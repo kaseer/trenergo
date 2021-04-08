@@ -17,7 +17,7 @@ import {
   BottomContainer,
   ProfileAvatarContainer,
   ProfileContainer,
-  SidebarBottom
+  SidebarBottom,
 } from './styled'
 import Title from 'antd/lib/typography/Title'
 
@@ -129,13 +129,16 @@ export const Sidebar = (props: Props) => {
             </Menu.Item>
           </Menu>
         </div>
-      <BottomContainer>
-        <ProfileContainer>
-          <img src="/profile.png" alt="" />
-        </ProfileContainer>
-        <Title ellipsis={true} level={5}>Benjamin <br/>
-          Zax</Title>
-      </BottomContainer>
+        <BottomContainer>
+          <ProfileContainer>
+            <img src="/profile.png" alt="" />
+          </ProfileContainer>
+          {!state.collapsed && (<Title ellipsis={true} level={5}>
+            Benjamin <br />
+            Zax
+          </Title>)}
+
+        </BottomContainer>
       </SidebarBottom>
     </>
   )
