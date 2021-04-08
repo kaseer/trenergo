@@ -1,27 +1,13 @@
 // @flow
 import * as React from 'react'
-import Icon from '@ant-design/icons'
 import { useEffect, useRef, useState } from 'react'
+import Icon, { SearchOutlined } from '@ant-design/icons'
 import { css } from '@emotion/react'
-import { Menu, Button } from 'antd'
-import {
-  AppstoreOutlined,
-  MenuUnfoldOutlined,
-  MenuFoldOutlined,
-  PieChartOutlined,
-  DesktopOutlined,
-  ContainerOutlined,
-  MailOutlined,
-} from '@ant-design/icons'
-import {
-  BottomContainer,
-  ProfileAvatarContainer,
-  ProfileContainer,
-  SidebarBottom,
-} from './styled'
+import { Menu } from 'antd'
+import { BottomContainer, ProfileAvatarContainer, ProfileContainer, SearchContainer, SidebarBottom } from './styled'
 import Title from 'antd/lib/typography/Title'
+import { Search } from '../../../components/search'
 
-const { SubMenu } = Menu
 
 type Props = {}
 
@@ -29,9 +15,7 @@ export const Sidebar = (props: Props) => {
   const [state, setState] = useState<{ collapsed: boolean }>({
     collapsed: false,
   })
-  const myCSS = css`
-    background: purple;
-  `
+
   const [selected, setSelected] = useState<any>(1)
   const [update, setUpdate] = useState(null)
   const ref = useRef(null)
@@ -71,6 +55,9 @@ export const Sidebar = (props: Props) => {
           <img src="/text-logo.svg" alt="logo" />
         )}
       </ProfileAvatarContainer>
+     <SearchContainer>
+       {state.collapsed ? <SearchOutlined /> : <Search />}
+     </SearchContainer>
       <div>
         <Menu
           ref={ref}

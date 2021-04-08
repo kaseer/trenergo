@@ -20,13 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73e0dbf5-4d6b-4b95-84e5-5a101f029a3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blocks/library/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/library/styled.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/card/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/card/styled.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/search/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/search/styled.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/library/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/library/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/library/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/library/styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/authentication/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/authentication/styled.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/dashboard/sider/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/dashboard/sider/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/dashboard/sider/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/dashboard/sider/styled.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/antd-custom.less" beforeDir="false" afterPath="$PROJECT_DIR$/shared/antd-custom.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +85,7 @@
       <workItem from="1617278727758" duration="9396000" />
       <workItem from="1617612641323" duration="2832000" />
       <workItem from="1617615711697" duration="36743000" />
+      <workItem from="1617883007900" duration="7183000" />
     </task>
     <servers />
   </component>

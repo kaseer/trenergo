@@ -1,9 +1,5 @@
 import styled from '@emotion/styled'
 
-export const SideContainer = styled.aside`
-  background: green;
-`
-
 export const ProfileAvatarContainer = styled.aside`
   width: 100%;
   display: flex;
@@ -13,6 +9,25 @@ export const ProfileAvatarContainer = styled.aside`
 
   img {
     width: 65%;
+  }
+`
+
+export const SideContainer = styled.aside`
+  background: green;
+`
+export const SearchContainer = styled.aside`
+  padding: 0 12px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 600px){
+    padding: 0;
+    margin-left: 25%;
+    margin-bottom: 12px;
+   width: 30px;
+  height: 30px;
+    background-color: #121214;
+    border-radius: 100px;
   }
 `
 
