@@ -11,6 +11,7 @@ export const LibraryButtons = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 `
+
 export const LibrarySection = styled.div`
   padding: 23px;
   border-radius: 30px;
@@ -20,13 +21,17 @@ export const LibrarySection = styled.div`
     border: none;
   }
   .ant-tabs-nav-list {
+  margin-bottom: 18px;
     background-color: #1c1c1e;
     border-radius: 100px;
-
+    width: 234px;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
     overflow: hidden;
     .ant-tabs-tab-active {
       border-bottom: none !important;
-      width: 85px;
+      width: 100%;
+      //max-width: 85px;
       height: 28px;
       color: #000c17;
       border-radius: 14px;
@@ -38,9 +43,11 @@ export const LibrarySection = styled.div`
   }
   .ant-tabs-tab-btn {
     text-align: center;
+    font-size: 14px;
+    
     //background: purple;
+    // min-width: 50px;
     width: 100%;
-    width: 82px;
     height: 26px;
   }
   .ant-tabs-tab {
@@ -50,6 +57,9 @@ export const LibrarySection = styled.div`
     color: #ededed;
   }
 `
-// padding: 23px;
-// border-radius: 30px;
-// background-color: #000000;
+export const FilterIcon = styled.div`
+  padding: 6px 0;
+  img{
+    height: 20px;
+  }
+`

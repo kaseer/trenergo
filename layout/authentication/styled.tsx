@@ -5,6 +5,26 @@ export const AuthWrapper = styled.div`
   background: #121214;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100vh;
+  
+  .ant-input:not(.ant-input-password input) {
+    border-bottom: solid 1px #1c1c1e !important;
+  }
+  .ant-input-password {
+    border-bottom: solid 1px #1c1c1e !important;
+  }
+  input.ant-input:focus {
+    --antd-wave-shadow-color: none;
+  }
+  .ant-layout-sider {
+    background: #efefef !important;
+  }
+  .ant-input-suffix {
+    svg {
+      color: #687079;
+    }
+  }
+  
+  
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
   }
