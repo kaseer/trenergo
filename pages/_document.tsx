@@ -23,9 +23,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-            <title>TrenerGo</title>
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
