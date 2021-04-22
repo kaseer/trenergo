@@ -5,14 +5,15 @@ import {
   MailOutlined,
   SettingOutlined,
 } from '@ant-design/icons'
+import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 import { DashboardLayout } from '../layout/dashboard'
 import { Library } from '../blocks/library'
 import styled from '@emotion/styled'
+import Drags from '../blocks/drags'
 
 const { SubMenu } = Menu
 
 const Container = styled.div`
-
   display: grid;
   grid-template-columns: 1fr 338px;
   grid-template-rows: 100vh;
@@ -25,8 +26,7 @@ class Index extends React.Component {
   }
   content = (
     <Container>
-      <div>content</div>
-      <Library />
+      <Drags/>
     </Container>
   )
 

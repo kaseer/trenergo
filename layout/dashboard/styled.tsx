@@ -27,8 +27,8 @@ export const SideContainer = styled.aside`
   }
 
   .ant-menu-item {
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
+    //margin-bottom: 0 !important;
+    //margin-top: 0 !important;
   }
   .ant-menu-item-selected {
     border-top-left-radius: 100px;
@@ -51,9 +51,9 @@ export const SideContainer = styled.aside`
     }
   }
 
-  li:has(+ .ant-menu-item-selected) {
-    background: green !important;
-  }
+  //li:has(+ .ant-menu-item-selected) {
+  //  background: green !important;
+  //}
   //.ant-menu-item-selected + li:before {
   //   content: url(/bottom.svg);
   //   width: 39px;

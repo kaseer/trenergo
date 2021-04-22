@@ -20,12 +20,12 @@ export const SearchContainer = styled.aside`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (max-width: 600px){
+  @media (max-width: 600px) {
     padding: 0;
     margin-left: 25%;
     margin-bottom: 12px;
-   width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
     background-color: #121214;
     border-radius: 100px;
   }
@@ -37,7 +37,7 @@ export const SidebarBottom = styled.aside`
   flex-direction: column;
   padding-top: 80px;
   min-height: 300px;
-  height: calc(100% - 450px);
+  height: calc(100% - 500px);
 `
 export const ProfileContainer = styled.div`
   width: 39px;

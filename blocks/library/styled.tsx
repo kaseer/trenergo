@@ -16,12 +16,13 @@ export const LibrarySection = styled.div`
   padding: 23px;
   border-radius: 30px;
   background-color: #000000;
+  height: calc(100vh - 100px);
   text-align: center;
   .ant-tabs-nav::before {
     border: none;
   }
   .ant-tabs-nav-list {
-  margin-bottom: 18px;
+    margin-bottom: 18px;
     background-color: #1c1c1e;
     border-radius: 100px;
     width: 234px;
@@ -44,7 +45,7 @@ export const LibrarySection = styled.div`
   .ant-tabs-tab-btn {
     text-align: center;
     font-size: 14px;
-    
+
     //background: purple;
     // min-width: 50px;
     width: 100%;
@@ -59,7 +60,7 @@ export const LibrarySection = styled.div`
 `
 export const FilterIcon = styled.div`
   padding: 6px 0;
-  img{
+  img {
     height: 20px;
   }
 `

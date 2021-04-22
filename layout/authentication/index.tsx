@@ -3,6 +3,7 @@ import { AuthWrapper, LeftContainer, RightContainer } from './styled'
 
 type Props = {
   form?: any
+  label?: any
 }
 export const AuthLayout = (props: Props) => {
   const { form } = props

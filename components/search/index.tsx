@@ -3,8 +3,8 @@ import { SearchOutlined } from '@ant-design/icons'
 import { SearchCustom } from './styled'
 
 type Props = {
-  placeholder?:string
-};
+  placeholder?: string
+}
 export const Search = (props: Props) => {
-  return <SearchCustom {...props} prefix={<SearchOutlined/>}/>
+  return <SearchCustom {...props} prefix={<SearchOutlined />} />
 }

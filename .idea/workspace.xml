@@ -20,18 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73e0dbf5-4d6b-4b95-84e5-5a101f029a3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/card/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/card/styled.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/search/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/search/styled.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/drags/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/addWorkout/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/app-loading/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/app-loading/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/app-loading/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/app-loading/styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/library/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/library/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/library/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/library/styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/registration/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/registration/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/registration/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/registration/styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/root/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/root/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/card/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/card/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/card/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/card/styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/input/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/input/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/input/styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/search/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/search/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/search/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/search/styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/social-button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/social-button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/authentication/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/authentication/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/authentication/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/authentication/styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/dashboard/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/dashboard/sider/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/dashboard/sider/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/dashboard/sider/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/dashboard/sider/styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/dashboard/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/dashboard/styled.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/antd-custom.less" beforeDir="false" afterPath="$PROJECT_DIR$/shared/antd-custom.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/styles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -43,7 +63,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="sidebar" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +78,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../trainings/dropdrag" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -86,6 +106,9 @@
       <workItem from="1617612641323" duration="2832000" />
       <workItem from="1617615711697" duration="36743000" />
       <workItem from="1617883007900" duration="7183000" />
+      <workItem from="1618385693958" duration="60000" />
+      <workItem from="1618460793676" duration="2549000" />
+      <workItem from="1618569117822" duration="16698000" />
     </task>
     <servers />
   </component>
@@ -105,21 +128,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="842" height="234" key="GridCell.Tab.0.bottom" timestamp="1617279128497">
+    <state x="246" y="218" key="FileChooserDialogImpl" timestamp="1618813426157">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="842" height="234" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1617279128497" />
-    <state width="842" height="234" key="GridCell.Tab.0.center" timestamp="1617279128497">
+    <state x="246" y="218" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1618813426157" />
+    <state width="830" height="235" key="GridCell.Tab.0.bottom" timestamp="1618240916502">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="842" height="234" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1617279128497" />
-    <state width="842" height="234" key="GridCell.Tab.0.left" timestamp="1617279128496">
+    <state width="830" height="235" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1618240916502" />
+    <state width="830" height="235" key="GridCell.Tab.0.center" timestamp="1618240916502">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="842" height="234" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1617279128496" />
-    <state width="842" height="234" key="GridCell.Tab.0.right" timestamp="1617279128497">
+    <state width="830" height="235" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1618240916502" />
+    <state width="830" height="235" key="GridCell.Tab.0.left" timestamp="1618240916501">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="842" height="234" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1617279128497" />
+    <state width="830" height="235" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1618240916501" />
+    <state width="830" height="235" key="GridCell.Tab.0.right" timestamp="1618240916502">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="830" height="235" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1618240916502" />
+    <state x="156" y="94" key="git4idea.branch.GitSmartOperationDialog" timestamp="1619071492126">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="156" y="94" key="git4idea.branch.GitSmartOperationDialog/0.0.1707.920@0.0.1707.920" timestamp="1619071492126" />
   </component>
 </project>

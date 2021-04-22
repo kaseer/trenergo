@@ -29,11 +29,13 @@ export const basicStyles = css`
     padding: 0;
     box-sizing: border-box;
   }
-  .ant-input-affix-wrapper:focus, .ant-input-affix-wrapper-focused{
+  .ant-input-affix-wrapper:focus,
+  .ant-input-affix-wrapper-focused {
     border-color: transparent;
   }
-  .ant-input:focus, .ant-input-focused{
-  border-color: transparent;
+  .ant-input:focus,
+  .ant-input-focused {
+    border-color: transparent;
   }
 `
 export const globalStyles = <Global styles={basicStyles} />

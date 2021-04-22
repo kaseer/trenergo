@@ -9,9 +9,9 @@ export const SearchCustom = styled(Search)`
   height: 30px;
   border-radius: 17px;
   border-color: transparent !important;
-  border-bottom:none !important;
+  border-bottom: none !important;
 
-  .ant-input-group-addon{
-   display: none;
+  .ant-input-group-addon {
+    display: none;
   }
 `

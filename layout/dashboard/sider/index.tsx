@@ -4,10 +4,15 @@ import { useEffect, useRef, useState } from 'react'
 import Icon, { SearchOutlined } from '@ant-design/icons'
 import { css } from '@emotion/react'
 import { Menu } from 'antd'
-import { BottomContainer, ProfileAvatarContainer, ProfileContainer, SearchContainer, SidebarBottom } from './styled'
+import {
+  BottomContainer,
+  ProfileAvatarContainer,
+  ProfileContainer,
+  SearchContainer,
+  SidebarBottom,
+} from './styled'
 import Title from 'antd/lib/typography/Title'
 import { Search } from '../../../components/search'
-
 
 type Props = {}
 
@@ -55,9 +60,9 @@ export const Sidebar = (props: Props) => {
           <img src="/text-logo.svg" alt="logo" />
         )}
       </ProfileAvatarContainer>
-     <SearchContainer>
-       {state.collapsed ? <SearchOutlined /> : <Search />}
-     </SearchContainer>
+      <SearchContainer>
+        {state.collapsed ? <SearchOutlined /> : <Search />}
+      </SearchContainer>
       <div>
         <Menu
           ref={ref}
@@ -120,11 +125,12 @@ export const Sidebar = (props: Props) => {
           <ProfileContainer>
             <img src="/profile.png" alt="" />
           </ProfileContainer>
-          {!state.collapsed && (<Title ellipsis={true} level={5}>
-            Benjamin <br />
-            Zax
-          </Title>)}
-
+          {!state.collapsed && (
+            <Title ellipsis={true} level={5}>
+              Benjamin <br />
+              Zax
+            </Title>
+          )}
         </BottomContainer>
       </SidebarBottom>
     </>
